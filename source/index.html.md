@@ -27,7 +27,7 @@ description TODO
 
 Base URLs:
 
-* <a href="https://https://otrl.test.co.uk">https://https://otrl.test.co.uk</a>
+* <a href="https://otrl.test.co.uk">https://otrl.test.co.uk</a>
 
 <h1 id="otris-api-jp">Journey Planner (jp)</h1>
 
@@ -37,7 +37,7 @@ Base URLs:
 
 ```shell
 # You can also use wget
-curl -X POST https://https://otrl.test.co.uk/jp/journey-plan \
+curl -X POST https://otrl.test.co.uk/jp/journey-plan \
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json' \
   -H 'X-Brand-Id: ontrackretail'
@@ -45,7 +45,7 @@ curl -X POST https://https://otrl.test.co.uk/jp/journey-plan \
 ```
 
 ```http
-POST https://https://otrl.test.co.uk/jp/journey-plan HTTP/1.1
+POST https://otrl.test.co.uk/jp/journey-plan HTTP/1.1
 Host: https://otrl.test.co.uk
 Content-Type: application/json
 Accept: application/json
@@ -83,7 +83,7 @@ const headers = {
 
 };
 
-fetch('https://https://otrl.test.co.uk/jp/journey-plan',
+fetch('https://otrl.test.co.uk/jp/journey-plan',
 {
   method: 'POST',
   body: inputBody,
@@ -107,7 +107,7 @@ headers = {
   'X-Brand-Id' => 'ontrackretail'
 }
 
-result = RestClient.post 'https://https://otrl.test.co.uk/jp/journey-plan',
+result = RestClient.post 'https://otrl.test.co.uk/jp/journey-plan',
   params: {
   }, headers: headers
 
@@ -123,7 +123,7 @@ headers = {
   'X-Brand-Id': 'ontrackretail'
 }
 
-r = requests.post('https://https://otrl.test.co.uk/jp/journey-plan', headers = headers)
+r = requests.post('https://otrl.test.co.uk/jp/journey-plan', headers = headers)
 
 print(r.json())
 
@@ -147,7 +147,7 @@ $client = new \GuzzleHttp\Client();
 $request_body = array();
 
 try {
-    $response = $client->request('POST','https://https://otrl.test.co.uk/jp/journey-plan', array(
+    $response = $client->request('POST','https://otrl.test.co.uk/jp/journey-plan', array(
         'headers' => $headers,
         'json' => $request_body,
        )
@@ -164,7 +164,7 @@ try {
 ```
 
 ```java
-URL obj = new URL("https://https://otrl.test.co.uk/jp/journey-plan");
+URL obj = new URL("https://otrl.test.co.uk/jp/journey-plan");
 HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 con.setRequestMethod("POST");
 int responseCode = con.getResponseCode();
@@ -198,7 +198,7 @@ func main() {
     }
 
     data := bytes.NewBuffer([]byte{jsonReq})
-    req, err := http.NewRequest("POST", "https://https://otrl.test.co.uk/jp/journey-plan", data)
+    req, err := http.NewRequest("POST", "https://otrl.test.co.uk/jp/journey-plan", data)
     req.Header = headers
 
     client := &http.Client{}
@@ -343,14 +343,14 @@ This operation does not require authentication
 
 ```shell
 # You can also use wget
-curl -X GET https://https://otrl.test.co.uk/jp/journeys/{id} \
+curl -X GET https://otrl.test.co.uk/jp/journeys/{id} \
   -H 'Accept: application/json' \
   -H 'X-Brand-Id: ontrackretail'
 
 ```
 
 ```http
-GET https://https://otrl.test.co.uk/jp/journeys/{id} HTTP/1.1
+GET https://otrl.test.co.uk/jp/journeys/{id} HTTP/1.1
 Host: https://otrl.test.co.uk
 Accept: application/json
 X-Brand-Id: ontrackretail
@@ -365,7 +365,7 @@ const headers = {
 
 };
 
-fetch('https://https://otrl.test.co.uk/jp/journeys/{id}',
+fetch('https://otrl.test.co.uk/jp/journeys/{id}',
 {
   method: 'GET',
 
@@ -388,7 +388,7 @@ headers = {
   'X-Brand-Id' => 'ontrackretail'
 }
 
-result = RestClient.get 'https://https://otrl.test.co.uk/jp/journeys/{id}',
+result = RestClient.get 'https://otrl.test.co.uk/jp/journeys/{id}',
   params: {
   }, headers: headers
 
@@ -403,7 +403,7 @@ headers = {
   'X-Brand-Id': 'ontrackretail'
 }
 
-r = requests.get('https://https://otrl.test.co.uk/jp/journeys/{id}', headers = headers)
+r = requests.get('https://otrl.test.co.uk/jp/journeys/{id}', headers = headers)
 
 print(r.json())
 
@@ -426,7 +426,7 @@ $client = new \GuzzleHttp\Client();
 $request_body = array();
 
 try {
-    $response = $client->request('GET','https://https://otrl.test.co.uk/jp/journeys/{id}', array(
+    $response = $client->request('GET','https://otrl.test.co.uk/jp/journeys/{id}', array(
         'headers' => $headers,
         'json' => $request_body,
        )
@@ -443,7 +443,7 @@ try {
 ```
 
 ```java
-URL obj = new URL("https://https://otrl.test.co.uk/jp/journeys/{id}");
+URL obj = new URL("https://otrl.test.co.uk/jp/journeys/{id}");
 HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 con.setRequestMethod("GET");
 int responseCode = con.getResponseCode();
@@ -476,7 +476,7 @@ func main() {
     }
 
     data := bytes.NewBuffer([]byte{jsonReq})
-    req, err := http.NewRequest("GET", "https://https://otrl.test.co.uk/jp/journeys/{id}", data)
+    req, err := http.NewRequest("GET", "https://otrl.test.co.uk/jp/journeys/{id}", data)
     req.Header = headers
 
     client := &http.Client{}
@@ -594,14 +594,14 @@ This operation does not require authentication
 
 ```shell
 # You can also use wget
-curl -X GET https://https://otrl.test.co.uk/jp/fares/{id} \
+curl -X GET https://otrl.test.co.uk/jp/fares/{id} \
   -H 'Accept: application/json' \
   -H 'X-Brand-Id: ontrackretail'
 
 ```
 
 ```http
-GET https://https://otrl.test.co.uk/jp/fares/{id} HTTP/1.1
+GET https://otrl.test.co.uk/jp/fares/{id} HTTP/1.1
 Host: https://otrl.test.co.uk
 Accept: application/json
 X-Brand-Id: ontrackretail
@@ -616,7 +616,7 @@ const headers = {
 
 };
 
-fetch('https://https://otrl.test.co.uk/jp/fares/{id}',
+fetch('https://otrl.test.co.uk/jp/fares/{id}',
 {
   method: 'GET',
 
@@ -639,7 +639,7 @@ headers = {
   'X-Brand-Id' => 'ontrackretail'
 }
 
-result = RestClient.get 'https://https://otrl.test.co.uk/jp/fares/{id}',
+result = RestClient.get 'https://otrl.test.co.uk/jp/fares/{id}',
   params: {
   }, headers: headers
 
@@ -654,7 +654,7 @@ headers = {
   'X-Brand-Id': 'ontrackretail'
 }
 
-r = requests.get('https://https://otrl.test.co.uk/jp/fares/{id}', headers = headers)
+r = requests.get('https://otrl.test.co.uk/jp/fares/{id}', headers = headers)
 
 print(r.json())
 
@@ -677,7 +677,7 @@ $client = new \GuzzleHttp\Client();
 $request_body = array();
 
 try {
-    $response = $client->request('GET','https://https://otrl.test.co.uk/jp/fares/{id}', array(
+    $response = $client->request('GET','https://otrl.test.co.uk/jp/fares/{id}', array(
         'headers' => $headers,
         'json' => $request_body,
        )
@@ -694,7 +694,7 @@ try {
 ```
 
 ```java
-URL obj = new URL("https://https://otrl.test.co.uk/jp/fares/{id}");
+URL obj = new URL("https://otrl.test.co.uk/jp/fares/{id}");
 HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 con.setRequestMethod("GET");
 int responseCode = con.getResponseCode();
@@ -727,7 +727,7 @@ func main() {
     }
 
     data := bytes.NewBuffer([]byte{jsonReq})
-    req, err := http.NewRequest("GET", "https://https://otrl.test.co.uk/jp/fares/{id}", data)
+    req, err := http.NewRequest("GET", "https://otrl.test.co.uk/jp/fares/{id}", data)
     req.Header = headers
 
     client := &http.Client{}
