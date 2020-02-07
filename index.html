@@ -306,7 +306,7 @@
 <p>Base URLs:</p>
 
 <ul>
-<li><a href="https://api-ontrackretail.feature-whitelabel.otrldev.uk">https://api-ontrackretail.feature-whitelabel.otrldev.uk</a></li>
+<li><a href="https://https://otrl.test.co.uk">https://https://otrl.test.co.uk</a></li>
 </ul>
 
 <h1 id="otris-api-jp">Journey Planner (jp)</h1>
@@ -315,13 +315,13 @@
 <p>Code samples</p>
 </blockquote>
 <pre class="highlight shell tab-shell"><code><span class="c"># You can also use wget</span>
-curl -X POST https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-plan <span class="se">\</span>
+curl -X POST https://https://otrl.test.co.uk/jp/journey-plan <span class="se">\</span>
   -H <span class="s1">'Content-Type: application/json'</span> <span class="se">\</span>
   -H <span class="s1">'Accept: application/json'</span> <span class="se">\</span>
   -H <span class="s1">'X-Brand-Id: ontrackretail'</span>
 
-</code></pre><pre class="highlight http tab-http"><code><span class="nf">POST</span> <span class="nn">https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-plan</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
-<span class="na">Host</span><span class="p">:</span> <span class="s">api-ontrackretail.feature-whitelabel.otrldev.uk</span>
+</code></pre><pre class="highlight http tab-http"><code><span class="nf">POST</span> <span class="nn">https://https://otrl.test.co.uk/jp/journey-plan</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+<span class="na">Host</span><span class="p">:</span> <span class="s">https://otrl.test.co.uk</span>
 <span class="na">Content-Type</span><span class="p">:</span> <span class="s">application/json</span>
 <span class="na">Accept</span><span class="p">:</span> <span class="s">application/json</span>
 <span class="na">X-Brand-Id</span><span class="p">:</span> <span class="s">ontrackretail</span>
@@ -355,7 +355,7 @@ curl -X POST https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-
 
 <span class="p">};</span>
 
-<span class="nx">fetch</span><span class="p">(</span><span class="s1">'https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-plan'</span><span class="p">,</span>
+<span class="nx">fetch</span><span class="p">(</span><span class="s1">'https://https://otrl.test.co.uk/jp/journey-plan'</span><span class="p">,</span>
 <span class="p">{</span>
   <span class="na">method</span><span class="p">:</span> <span class="s1">'POST'</span><span class="p">,</span>
   <span class="na">body</span><span class="p">:</span> <span class="nx">inputBody</span><span class="p">,</span>
@@ -376,7 +376,7 @@ curl -X POST https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-
   <span class="s1">'X-Brand-Id'</span> <span class="o">=&gt;</span> <span class="s1">'ontrackretail'</span>
 <span class="p">}</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-plan'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'https://https://otrl.test.co.uk/jp/journey-plan'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
 
@@ -389,7 +389,7 @@ curl -X POST https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-
   <span class="s">'X-Brand-Id'</span><span class="p">:</span> <span class="s">'ontrackretail'</span>
 <span class="p">}</span>
 
-<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s">'https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-plan'</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">headers</span><span class="p">)</span>
+<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s">'https://https://otrl.test.co.uk/jp/journey-plan'</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">headers</span><span class="p">)</span>
 
 <span class="k">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
 
@@ -410,7 +410,7 @@ curl -X POST https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-
 </span><span class="nv">$request_body</span> <span class="o">=</span> <span class="k">array</span><span class="p">();</span>
 
 <span class="k">try</span> <span class="p">{</span>
-    <span class="nv">$response</span> <span class="o">=</span> <span class="nv">$client</span><span class="o">-&gt;</span><span class="na">request</span><span class="p">(</span><span class="s1">'POST'</span><span class="p">,</span><span class="s1">'https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-plan'</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span>
+    <span class="nv">$response</span> <span class="o">=</span> <span class="nv">$client</span><span class="o">-&gt;</span><span class="na">request</span><span class="p">(</span><span class="s1">'POST'</span><span class="p">,</span><span class="s1">'https://https://otrl.test.co.uk/jp/journey-plan'</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span>
         <span class="s1">'headers'</span> <span class="o">=&gt;</span> <span class="nv">$headers</span><span class="p">,</span>
         <span class="s1">'json'</span> <span class="o">=&gt;</span> <span class="nv">$request_body</span><span class="p">,</span>
        <span class="p">)</span>
@@ -424,7 +424,7 @@ curl -X POST https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-
 
  <span class="c1">// ...
 </span>
-</code></pre><pre class="highlight java tab-java"><code><span class="n">URL</span> <span class="n">obj</span> <span class="o">=</span> <span class="k">new</span> <span class="n">URL</span><span class="o">(</span><span class="s">"https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-plan"</span><span class="o">);</span>
+</code></pre><pre class="highlight java tab-java"><code><span class="n">URL</span> <span class="n">obj</span> <span class="o">=</span> <span class="k">new</span> <span class="n">URL</span><span class="o">(</span><span class="s">"https://https://otrl.test.co.uk/jp/journey-plan"</span><span class="o">);</span>
 <span class="n">HttpURLConnection</span> <span class="n">con</span> <span class="o">=</span> <span class="o">(</span><span class="n">HttpURLConnection</span><span class="o">)</span> <span class="n">obj</span><span class="o">.</span><span class="na">openConnection</span><span class="o">();</span>
 <span class="n">con</span><span class="o">.</span><span class="na">setRequestMethod</span><span class="o">(</span><span class="s">"POST"</span><span class="o">);</span>
 <span class="kt">int</span> <span class="n">responseCode</span> <span class="o">=</span> <span class="n">con</span><span class="o">.</span><span class="na">getResponseCode</span><span class="o">();</span>
@@ -455,7 +455,7 @@ curl -X POST https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-
     </span><span class="p">}</span><span class="x">
 
     </span><span class="n">data</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">bytes</span><span class="o">.</span><span class="n">NewBuffer</span><span class="p">([]</span><span class="kt">byte</span><span class="p">{</span><span class="n">jsonReq</span><span class="p">})</span><span class="x">
-    </span><span class="n">req</span><span class="p">,</span><span class="x"> </span><span class="n">err</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">http</span><span class="o">.</span><span class="n">NewRequest</span><span class="p">(</span><span class="s">"POST"</span><span class="p">,</span><span class="x"> </span><span class="s">"https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journey-plan"</span><span class="p">,</span><span class="x"> </span><span class="n">data</span><span class="p">)</span><span class="x">
+    </span><span class="n">req</span><span class="p">,</span><span class="x"> </span><span class="n">err</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">http</span><span class="o">.</span><span class="n">NewRequest</span><span class="p">(</span><span class="s">"POST"</span><span class="p">,</span><span class="x"> </span><span class="s">"https://https://otrl.test.co.uk/jp/journey-plan"</span><span class="p">,</span><span class="x"> </span><span class="n">data</span><span class="p">)</span><span class="x">
     </span><span class="n">req</span><span class="o">.</span><span class="n">Header</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="n">headers</span><span class="x">
 
     </span><span class="n">client</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="o">&amp;</span><span class="n">http</span><span class="o">.</span><span class="n">Client</span><span class="p">{}</span><span class="x">
@@ -624,12 +624,12 @@ This operation does not require authentication
 <p>Code samples</p>
 </blockquote>
 <pre class="highlight shell tab-shell"><code><span class="c"># You can also use wget</span>
-curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/<span class="o">{</span>id<span class="o">}</span> <span class="se">\</span>
+curl -X GET https://https://otrl.test.co.uk/jp/journeys/<span class="o">{</span>id<span class="o">}</span> <span class="se">\</span>
   -H <span class="s1">'Accept: application/json'</span> <span class="se">\</span>
   -H <span class="s1">'X-Brand-Id: ontrackretail'</span>
 
-</code></pre><pre class="highlight http tab-http"><code><span class="nf">GET</span> <span class="nn">https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/{id}</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
-<span class="na">Host</span><span class="p">:</span> <span class="s">api-ontrackretail.feature-whitelabel.otrldev.uk</span>
+</code></pre><pre class="highlight http tab-http"><code><span class="nf">GET</span> <span class="nn">https://https://otrl.test.co.uk/jp/journeys/{id}</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+<span class="na">Host</span><span class="p">:</span> <span class="s">https://otrl.test.co.uk</span>
 <span class="na">Accept</span><span class="p">:</span> <span class="s">application/json</span>
 <span class="na">X-Brand-Id</span><span class="p">:</span> <span class="s">ontrackretail</span>
 
@@ -640,7 +640,7 @@ curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/
 
 <span class="p">};</span>
 
-<span class="nx">fetch</span><span class="p">(</span><span class="s1">'https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/{id}'</span><span class="p">,</span>
+<span class="nx">fetch</span><span class="p">(</span><span class="s1">'https://https://otrl.test.co.uk/jp/journeys/{id}'</span><span class="p">,</span>
 <span class="p">{</span>
   <span class="na">method</span><span class="p">:</span> <span class="s1">'GET'</span><span class="p">,</span>
 
@@ -660,7 +660,7 @@ curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/
   <span class="s1">'X-Brand-Id'</span> <span class="o">=&gt;</span> <span class="s1">'ontrackretail'</span>
 <span class="p">}</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://https://otrl.test.co.uk/jp/journeys/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
 
@@ -672,7 +672,7 @@ curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/
   <span class="s">'X-Brand-Id'</span><span class="p">:</span> <span class="s">'ontrackretail'</span>
 <span class="p">}</span>
 
-<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/{id}'</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">headers</span><span class="p">)</span>
+<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'https://https://otrl.test.co.uk/jp/journeys/{id}'</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">headers</span><span class="p">)</span>
 
 <span class="k">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
 
@@ -692,7 +692,7 @@ curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/
 </span><span class="nv">$request_body</span> <span class="o">=</span> <span class="k">array</span><span class="p">();</span>
 
 <span class="k">try</span> <span class="p">{</span>
-    <span class="nv">$response</span> <span class="o">=</span> <span class="nv">$client</span><span class="o">-&gt;</span><span class="na">request</span><span class="p">(</span><span class="s1">'GET'</span><span class="p">,</span><span class="s1">'https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/{id}'</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span>
+    <span class="nv">$response</span> <span class="o">=</span> <span class="nv">$client</span><span class="o">-&gt;</span><span class="na">request</span><span class="p">(</span><span class="s1">'GET'</span><span class="p">,</span><span class="s1">'https://https://otrl.test.co.uk/jp/journeys/{id}'</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span>
         <span class="s1">'headers'</span> <span class="o">=&gt;</span> <span class="nv">$headers</span><span class="p">,</span>
         <span class="s1">'json'</span> <span class="o">=&gt;</span> <span class="nv">$request_body</span><span class="p">,</span>
        <span class="p">)</span>
@@ -706,7 +706,7 @@ curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/
 
  <span class="c1">// ...
 </span>
-</code></pre><pre class="highlight java tab-java"><code><span class="n">URL</span> <span class="n">obj</span> <span class="o">=</span> <span class="k">new</span> <span class="n">URL</span><span class="o">(</span><span class="s">"https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/{id}"</span><span class="o">);</span>
+</code></pre><pre class="highlight java tab-java"><code><span class="n">URL</span> <span class="n">obj</span> <span class="o">=</span> <span class="k">new</span> <span class="n">URL</span><span class="o">(</span><span class="s">"https://https://otrl.test.co.uk/jp/journeys/{id}"</span><span class="o">);</span>
 <span class="n">HttpURLConnection</span> <span class="n">con</span> <span class="o">=</span> <span class="o">(</span><span class="n">HttpURLConnection</span><span class="o">)</span> <span class="n">obj</span><span class="o">.</span><span class="na">openConnection</span><span class="o">();</span>
 <span class="n">con</span><span class="o">.</span><span class="na">setRequestMethod</span><span class="o">(</span><span class="s">"GET"</span><span class="o">);</span>
 <span class="kt">int</span> <span class="n">responseCode</span> <span class="o">=</span> <span class="n">con</span><span class="o">.</span><span class="na">getResponseCode</span><span class="o">();</span>
@@ -736,7 +736,7 @@ curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/
     </span><span class="p">}</span><span class="x">
 
     </span><span class="n">data</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">bytes</span><span class="o">.</span><span class="n">NewBuffer</span><span class="p">([]</span><span class="kt">byte</span><span class="p">{</span><span class="n">jsonReq</span><span class="p">})</span><span class="x">
-    </span><span class="n">req</span><span class="p">,</span><span class="x"> </span><span class="n">err</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">http</span><span class="o">.</span><span class="n">NewRequest</span><span class="p">(</span><span class="s">"GET"</span><span class="p">,</span><span class="x"> </span><span class="s">"https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/journeys/{id}"</span><span class="p">,</span><span class="x"> </span><span class="n">data</span><span class="p">)</span><span class="x">
+    </span><span class="n">req</span><span class="p">,</span><span class="x"> </span><span class="n">err</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">http</span><span class="o">.</span><span class="n">NewRequest</span><span class="p">(</span><span class="s">"GET"</span><span class="p">,</span><span class="x"> </span><span class="s">"https://https://otrl.test.co.uk/jp/journeys/{id}"</span><span class="p">,</span><span class="x"> </span><span class="n">data</span><span class="p">)</span><span class="x">
     </span><span class="n">req</span><span class="o">.</span><span class="n">Header</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="n">headers</span><span class="x">
 
     </span><span class="n">client</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="o">&amp;</span><span class="n">http</span><span class="o">.</span><span class="n">Client</span><span class="p">{}</span><span class="x">
@@ -882,12 +882,12 @@ This operation does not require authentication
 <p>Code samples</p>
 </blockquote>
 <pre class="highlight shell tab-shell"><code><span class="c"># You can also use wget</span>
-curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/<span class="o">{</span>id<span class="o">}</span> <span class="se">\</span>
+curl -X GET https://https://otrl.test.co.uk/jp/fares/<span class="o">{</span>id<span class="o">}</span> <span class="se">\</span>
   -H <span class="s1">'Accept: application/json'</span> <span class="se">\</span>
   -H <span class="s1">'X-Brand-Id: ontrackretail'</span>
 
-</code></pre><pre class="highlight http tab-http"><code><span class="nf">GET</span> <span class="nn">https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/{id}</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
-<span class="na">Host</span><span class="p">:</span> <span class="s">api-ontrackretail.feature-whitelabel.otrldev.uk</span>
+</code></pre><pre class="highlight http tab-http"><code><span class="nf">GET</span> <span class="nn">https://https://otrl.test.co.uk/jp/fares/{id}</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+<span class="na">Host</span><span class="p">:</span> <span class="s">https://otrl.test.co.uk</span>
 <span class="na">Accept</span><span class="p">:</span> <span class="s">application/json</span>
 <span class="na">X-Brand-Id</span><span class="p">:</span> <span class="s">ontrackretail</span>
 
@@ -898,7 +898,7 @@ curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/<sp
 
 <span class="p">};</span>
 
-<span class="nx">fetch</span><span class="p">(</span><span class="s1">'https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/{id}'</span><span class="p">,</span>
+<span class="nx">fetch</span><span class="p">(</span><span class="s1">'https://https://otrl.test.co.uk/jp/fares/{id}'</span><span class="p">,</span>
 <span class="p">{</span>
   <span class="na">method</span><span class="p">:</span> <span class="s1">'GET'</span><span class="p">,</span>
 
@@ -918,7 +918,7 @@ curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/<sp
   <span class="s1">'X-Brand-Id'</span> <span class="o">=&gt;</span> <span class="s1">'ontrackretail'</span>
 <span class="p">}</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://https://otrl.test.co.uk/jp/fares/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
 
@@ -930,7 +930,7 @@ curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/<sp
   <span class="s">'X-Brand-Id'</span><span class="p">:</span> <span class="s">'ontrackretail'</span>
 <span class="p">}</span>
 
-<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/{id}'</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">headers</span><span class="p">)</span>
+<span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'https://https://otrl.test.co.uk/jp/fares/{id}'</span><span class="p">,</span> <span class="n">headers</span> <span class="o">=</span> <span class="n">headers</span><span class="p">)</span>
 
 <span class="k">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
 
@@ -950,7 +950,7 @@ curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/<sp
 </span><span class="nv">$request_body</span> <span class="o">=</span> <span class="k">array</span><span class="p">();</span>
 
 <span class="k">try</span> <span class="p">{</span>
-    <span class="nv">$response</span> <span class="o">=</span> <span class="nv">$client</span><span class="o">-&gt;</span><span class="na">request</span><span class="p">(</span><span class="s1">'GET'</span><span class="p">,</span><span class="s1">'https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/{id}'</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span>
+    <span class="nv">$response</span> <span class="o">=</span> <span class="nv">$client</span><span class="o">-&gt;</span><span class="na">request</span><span class="p">(</span><span class="s1">'GET'</span><span class="p">,</span><span class="s1">'https://https://otrl.test.co.uk/jp/fares/{id}'</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span>
         <span class="s1">'headers'</span> <span class="o">=&gt;</span> <span class="nv">$headers</span><span class="p">,</span>
         <span class="s1">'json'</span> <span class="o">=&gt;</span> <span class="nv">$request_body</span><span class="p">,</span>
        <span class="p">)</span>
@@ -964,7 +964,7 @@ curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/<sp
 
  <span class="c1">// ...
 </span>
-</code></pre><pre class="highlight java tab-java"><code><span class="n">URL</span> <span class="n">obj</span> <span class="o">=</span> <span class="k">new</span> <span class="n">URL</span><span class="o">(</span><span class="s">"https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/{id}"</span><span class="o">);</span>
+</code></pre><pre class="highlight java tab-java"><code><span class="n">URL</span> <span class="n">obj</span> <span class="o">=</span> <span class="k">new</span> <span class="n">URL</span><span class="o">(</span><span class="s">"https://https://otrl.test.co.uk/jp/fares/{id}"</span><span class="o">);</span>
 <span class="n">HttpURLConnection</span> <span class="n">con</span> <span class="o">=</span> <span class="o">(</span><span class="n">HttpURLConnection</span><span class="o">)</span> <span class="n">obj</span><span class="o">.</span><span class="na">openConnection</span><span class="o">();</span>
 <span class="n">con</span><span class="o">.</span><span class="na">setRequestMethod</span><span class="o">(</span><span class="s">"GET"</span><span class="o">);</span>
 <span class="kt">int</span> <span class="n">responseCode</span> <span class="o">=</span> <span class="n">con</span><span class="o">.</span><span class="na">getResponseCode</span><span class="o">();</span>
@@ -994,7 +994,7 @@ curl -X GET https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/<sp
     </span><span class="p">}</span><span class="x">
 
     </span><span class="n">data</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">bytes</span><span class="o">.</span><span class="n">NewBuffer</span><span class="p">([]</span><span class="kt">byte</span><span class="p">{</span><span class="n">jsonReq</span><span class="p">})</span><span class="x">
-    </span><span class="n">req</span><span class="p">,</span><span class="x"> </span><span class="n">err</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">http</span><span class="o">.</span><span class="n">NewRequest</span><span class="p">(</span><span class="s">"GET"</span><span class="p">,</span><span class="x"> </span><span class="s">"https://api-ontrackretail.feature-whitelabel.otrldev.uk/jp/fares/{id}"</span><span class="p">,</span><span class="x"> </span><span class="n">data</span><span class="p">)</span><span class="x">
+    </span><span class="n">req</span><span class="p">,</span><span class="x"> </span><span class="n">err</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">http</span><span class="o">.</span><span class="n">NewRequest</span><span class="p">(</span><span class="s">"GET"</span><span class="p">,</span><span class="x"> </span><span class="s">"https://https://otrl.test.co.uk/jp/fares/{id}"</span><span class="p">,</span><span class="x"> </span><span class="n">data</span><span class="p">)</span><span class="x">
     </span><span class="n">req</span><span class="o">.</span><span class="n">Header</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="n">headers</span><span class="x">
 
     </span><span class="n">client</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="o">&amp;</span><span class="n">http</span><span class="o">.</span><span class="n">Client</span><span class="p">{}</span><span class="x">
