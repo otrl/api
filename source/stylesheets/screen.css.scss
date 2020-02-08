@@ -60,7 +60,7 @@ html, body {
   width: $nav-width;
   background-color: $nav-bg;
   font-size: 13px;
-  font-weight: bold;
+  // font-weight: bold;
 
   // language selector for mobile devices
   .lang-selector {
@@ -162,6 +162,7 @@ html, body {
   .toc-link.active-parent {
     background-color: $nav-active-parent-bg;
     color: $nav-active-parent-text;
+    font-weight: bold;
   }
 
   .toc-list-h2 {
