@@ -353,8 +353,8 @@ html, body {
     margin-bottom: $h1-margin-bottom;
     margin-top: 2em;
     border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    background-color: #f3f7f9;
+    // border-bottom: 1px solid #ccc;
+    // background-color: #f3f7f9;
   }
 
   h1:first-child, div:first-child + h1 {
@@ -400,6 +400,7 @@ html, body {
   table {
     margin-bottom: 1em;
     overflow: auto;
+  
     th,td {
       text-align: left;
       vertical-align: top;
@@ -411,25 +412,30 @@ html, body {
 
     th {
       padding: 5px 10px;
-      border-bottom: 1px solid #ccc;
+      // border-bottom: 1px solid #ccc;
       vertical-align: bottom;
+      background-color: #fbfcfd;
     }
 
     td {
       padding: 10px;
     }
 
+    tr {
+      background-color: #fbfcfd;
+    }
+
     tr:last-child {
-      border-bottom: 1px solid #ccc;
+      // border-bottom: 1px solid #ccc;
     }
 
-    tr:nth-child(odd)>td {
-      background-color: lighten($main-bg,4.2%);
-    }
+    // tr:nth-child(odd)>td {
+    //   background-color: lighten($main-bg,4.2%);
+    // }
 
-    tr:nth-child(even)>td {
-      background-color: lighten($main-bg,2.4%);
-    }
+    // tr:nth-child(even)>td {
+    //   background-color: lighten($main-bg,2.4%);
+    // }
   }
 
   dt {
@@ -544,7 +550,7 @@ html, body {
 
   blockquote {
     &>p {
-      background-color: $code-annotation-bg;
+      background-color: $code-bg;
       padding: $code-annotation-padding 2em;
       color: #eee;
     }
