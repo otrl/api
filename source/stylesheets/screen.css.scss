@@ -352,7 +352,7 @@ html, body {
     padding-bottom: 0.5em;
     margin-bottom: $h1-margin-bottom;
     margin-top: 2em;
-    border-top: 1px solid #f3f7f9;
+    border-top: 1px solid $nav-bg;
     // border-bottom: 1px solid #ccc;
     // background-color: #f3f7f9;
   }
@@ -402,7 +402,7 @@ html, body {
     overflow: auto;
 
     thead {
-      border-top: 1px solid #f3f7f9;
+      border-top: 1px solid $nav-bg;
     }
 
     tbody {
