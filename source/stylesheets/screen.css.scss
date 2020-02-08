@@ -400,6 +400,16 @@ html, body {
   table {
     margin-bottom: 1em;
     overflow: auto;
+
+    thead {
+      border-top: 1px solid #f0f4f7;
+    }
+
+    tbody {
+      // background-color: #ccc;
+      // border: 1px solid #ccc;
+      // border-top: 0px solid #ccc;
+    }
   
     th,td {
       text-align: left;
@@ -412,7 +422,6 @@ html, body {
 
     th {
       padding: 5px 10px;
-      // border-bottom: 1px solid #ccc;
       vertical-align: bottom;
       background-color: #fbfcfd;
     }
@@ -436,6 +445,14 @@ html, body {
     // tr:nth-child(even)>td {
     //   background-color: lighten($main-bg,2.4%);
     // }
+
+    th:first-child {
+      visibility: hidden;
+    }
+
+    td:first-child {
+      font-weight: bold
+    }
   }
 
   dt {
